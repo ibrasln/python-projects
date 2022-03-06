@@ -21,7 +21,7 @@ while True:
             guess = randint(1, 101)
            
             print("Computer is guessing your number...")
-            time.sleep(2.5)
+            time.sleep(1.5)
             print(f"Guess of computer is {guess}.")
            
             if guess == num:
