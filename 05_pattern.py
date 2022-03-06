@@ -9,7 +9,9 @@ nnn..
 
 rows = int(input("Enter row size:"))
 num = 0
+
 for i in range(rows + 1):
+    
     for j in range(i):
         print(num, end = '')
     

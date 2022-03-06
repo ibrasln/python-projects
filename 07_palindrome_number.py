@@ -3,7 +3,9 @@ Check if the given number is a palindrome number.
 A palindrome number is a number that is same after reverse. For example 131, is the palindrome numbers.
 '''
 while True:
+    
     origin_number = input("Enter a number: ")
+    
     try:
         origin_number = int(origin_number)
     except:

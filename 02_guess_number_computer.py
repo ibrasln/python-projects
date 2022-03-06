@@ -10,6 +10,7 @@ live = 8
  
 while True:
     num = input("Enter a number between 1 - 100: ")
+    
     try:
         num = int(num)
     except:
@@ -17,6 +18,7 @@ while True:
         continue
 
     if num >= 1 and num <= 100:
+        
         while True:
             guess = randint(1, 101)
            

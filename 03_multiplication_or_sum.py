@@ -6,6 +6,7 @@ Given two integer numbers return their product only if the product is greater th
 print("If their product is greater than 1000 return product, else return their sum.")
 
 while True:
+    
     number1 = input("Enter the first number:")
     number2 = input("Enter the second number:")
 

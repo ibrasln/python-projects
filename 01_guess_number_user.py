@@ -7,7 +7,9 @@ from random import *
  
 num = randint(1, 101)
 live = 8
+
 print("Welcome the Guess Number Game. You have only 8 lives.")
+
 while True:
     guess = input("Enter your guess:")
     
@@ -31,6 +33,7 @@ while True:
             print("Your guess is lower than number.")
             live -= 1
         print(f"{live} lives left.")
+        
     else:
         print("Your guess must be between 1 - 100.")
 
