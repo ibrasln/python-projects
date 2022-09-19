@@ -9,7 +9,7 @@ while True:
     try:
         passwordLength = int(passwordLength)
     except:
-        print("You have to enter a integer.")
+        print("You have to enter an integer.")
         continue
 
     letters = string.ascii_letters
